@@ -4,8 +4,10 @@
 
 ## Live application
 Visit the [project link](http://dental-clinic-app.myprofilely.com) for presentation.
-Invididual Repository Frontend [project link](https://github.com/ervingorospe/dental-clinic-react).
-Invididual Repository Backend [project link](https://github.com/ervingorospe/dental-clinic-api-nodejs).
+
+Invididual Repository Frontend [https://github.com/ervingorospe/dental-clinic-react](https://github.com/ervingorospe/dental-clinic-react).
+
+Invididual Repository Backend [https://github.com/ervingorospe/dental-clinic-api-nodejs](https://github.com/ervingorospe/dental-clinic-api-nodejs).
 
 ## Overview
 This application is built with a **React frontend**, a **Node.js/Express backend**, and a **PostgreSQL database**. The application is structured as a **single-page application** (SPA), where React handles the UI, and Express manages the business logic and database interaction.
