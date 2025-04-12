@@ -27,6 +27,15 @@ This application is built with a **React frontend**, a **Node.js/Express backend
 4. For authentication, the frontend stores the JWT token in a **HttpOnly cookie** and automatically includes it in the headers of protected API requests through the browser's automatic cookie handling.
 5. The database schema supports user management, task data, and task statuses.
 
+## Database Schema
+- **Relational Database**: Used postgreSQL database
+- **Prisma**: Used to connect and migrate to database
+- **users model**: Have one to many relationship with Appointments and one to one relationship with userDetails
+- **userDetails model**: Have one to one relationship with users model storing firstname, lastname, etc
+- **Appointments model**: Have Many to one relationship with users model 
+- **Services model**: Have one to Many relationship with Appointment
+- **Service Category model**: Have one to Many relationship with Services
+
 ## Components Structure:
 ### Module Breakdown
 - **controller**: Responsible for handling requests and responses, including error handling.
