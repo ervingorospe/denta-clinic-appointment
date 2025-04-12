@@ -1,4 +1,9 @@
+
+
 # System Architecture
+
+## Live application
+Visit the [project link](http://dental-clinic-app.myprofilely.com) for presentation.
 
 ## Overview
 This application is built with a **React frontend**, a **Node.js/Express backend**, and a **PostgreSQL database**. The application is structured as a **single-page application** (SPA), where React handles the UI, and Express manages the business logic and database interaction.
