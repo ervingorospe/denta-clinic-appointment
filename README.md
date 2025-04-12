@@ -159,4 +159,19 @@ npm install
 npm run dev
 ```
 
+### Here are dummy user logins you could use
 
+Password is : `password123`
+
+## For Doctors
+doctor1@example.com
+doctor2@example.com
+doctor3@example.com
+doctor4@example.com
+doctor5@example.com
+
+## For Patients
+patient1@example.com
+patient2@example.com
+patient3@example.com
+patient4@example.com
