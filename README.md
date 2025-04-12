@@ -4,6 +4,8 @@
 
 ## Live application
 Visit the [project link](http://dental-clinic-app.myprofilely.com) for presentation.
+Invididual Repository Frontend [project link](https://github.com/ervingorospe/dental-clinic-react).
+Invididual Repository Backend [project link](https://github.com/ervingorospe/dental-clinic-api-nodejs).
 
 ## Overview
 This application is built with a **React frontend**, a **Node.js/Express backend**, and a **PostgreSQL database**. The application is structured as a **single-page application** (SPA), where React handles the UI, and Express manages the business logic and database interaction.
@@ -98,7 +100,7 @@ Start by cloning the project repository to your local machine:
 git clone https://github.com/ervingorospe/dental-clinic-api-nodejs.git
 cd dental-clinic-api-nodejs
 ```
-### Example `.env` Configuration
+## Example `.env` Configuration
 
 Create a `.env` file in the root directory and add the following variables:
 
@@ -115,6 +117,19 @@ DATABASE_URL=your_postgres_url     # PostgreSQL connection string
 npm install
 npm run dev
 ```
+
+### Run migration of database
+```bash
+npx prisma migrate dev # for development
+npx prisma migrate deploy # for production it will run all the migration file created in development
+```
+
+### To run seeder for Doctors and Services
+```bash
+npm run seed:service
+npm run seed:users
+```
+Default password for the users is `password123`
 
 ## How to Run Frontend
 
