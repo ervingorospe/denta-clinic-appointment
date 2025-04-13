@@ -3,7 +3,7 @@
 # System Architecture
 
 ## Live application
-Visit the [project link](https://dental-clinic-app.myprofilely.com) for presentation.
+Visit the [https://dental-clinic-app.myprofilely.com](https://dental-clinic-app.myprofilely.com) for presentation.
 
 Invididual Repository Frontend [https://github.com/ervingorospe/dental-clinic-react](https://github.com/ervingorospe/dental-clinic-react).
 
