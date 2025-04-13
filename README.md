@@ -13,7 +13,7 @@ Invididual Repository Backend [https://github.com/ervingorospe/dental-clinic-api
 This application is built with a **React frontend**, a **Node.js/Express backend**, and a **PostgreSQL database**. The application is structured as a **single-page application** (SPA), where React handles the UI, and Express manages the business logic and database interaction.
 
 ### Key Components:
-- **Frontend (React)**: The user interface of the application, where users can manage set appointment.
+- **Frontend ( Vite + React)**: The user interface of the application, where users can manage set appointment.
 - **Backend (Node.js/Express)**: The server-side component that handles authentication, task management, and communication with the database.
 - **Database (PostgreSQL)**: Stores user data, tasks, and other relevant information.
 - **Prisma**: Used for database interaction and managing the schema.
